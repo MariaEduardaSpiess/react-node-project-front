@@ -1,16 +1,12 @@
 import React from 'react';
-import {BrowserRouter, Route, Switch} from 'react-router-dom';
-import Cadastro from './paginas/Cadastro';
-import Login from './paginas/Login';
-import Teste from './paginas/Teste';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Home from './paginas/home';
 
 function Routes() {
     return (
         <BrowserRouter>
             <Switch>
-                <Route path="/" exact={true} component={Login} />
-                <Route path="/cadastrar" component={Cadastro} />
-                <Route path="/teste" component={Teste} />
+                <Route path="/" exact={true} component={Home} />
             </Switch>
         </BrowserRouter>
     )
