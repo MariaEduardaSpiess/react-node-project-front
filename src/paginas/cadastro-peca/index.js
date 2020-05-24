@@ -2,7 +2,7 @@ import React from 'react';
 import { Form, Input, InputNumber, Button, Row, Col } from 'antd';
 import api from '../../services/api';
 
-function Home() {
+function CadastroPeca() {
 
     const [form] = Form.useForm();
 
@@ -51,4 +51,4 @@ function Home() {
     );
 }
 
-export default Home;
+export default CadastroPeca;
