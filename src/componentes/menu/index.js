@@ -14,9 +14,17 @@ function AppMenu() {
         <span>Cadastro de Peça</span>
         <Link to="/cadastro-peca" />
       </Menu.Item>
+      <Menu.Item key="5">
+        <span>Listagem de Clientes</span>
+        <Link to="/listagem-cliente" />
+      </Menu.Item>
       <Menu.Item key="2">
         <span>Cadastro de Cliente</span>
         <Link to="/cadastro-cliente" />
+      </Menu.Item>
+      <Menu.Item key="6">
+        <span>Listagem de Pedidos</span>
+        <Link to="/listagem-pedido" />
       </Menu.Item>
       <Menu.Item key="3">
         <span>Cadastro de Pedidos</span>
